@@ -1,0 +1,19 @@
+{
+  "name": "testpro",
+  "version": "1.0.0",
+  "description": "hello world ",
+  "main": "Google.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "adel",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^1.5.1",
+    "sync-sql": "github:cristidraghici/sync-sql"
+  },
+  "devDependencies": {
+    "chromedriver": "^78.0.1",
+    "selenium-server": "^3.141.59"
+  }
+}
