@@ -9,8 +9,10 @@ module.exports={
     before:function(browser){
       const LoginPage = new loginPage(browser)
       LoginPage.login('Adel89588044', 'More@2020')
-    
-    
+      
+     
   }
 };
 
+
+    

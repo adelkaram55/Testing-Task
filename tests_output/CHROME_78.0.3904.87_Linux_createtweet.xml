@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="0"
+            tests="1">
+
+  <testsuite name="createtweet"
+    errors="3" failures="0" hostname="" id="" package="createtweet" skipped="0"
+    tests="1" time="21.29" timestamp="">
+  
+    <testcase name="submit tweet" classname="createtweet" time="21.29" assertions="1">
+
+    
+    <error message="An error occurred while running .click() command on &lt;//*[@id=&#34;react-root&#34;]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[4]/div/div/div[2]/div[3]/div/span/span&gt;: " type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .click() command on &lt;//*[@id=&#34;react-root&#34;]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[4]/div/div/div[2]/div[3]/div/span/span&gt;: 
+    at ClickElement.noSuchElementError (/usr/local/lib/node_modules/nightwatch/lib/element/command.js:399:12)
+    at Object.errorHandler (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:64:29)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;//*[@id=&#34;react-root&#34;]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[1]/div/div/div/div/div/div/div/div/div/div[1]/div/div/div/div[2]/div/div/div/div&gt;: 
+   {&#34;sessionId&#34;:&#34;7cab286193e5a8209b8bf9b0009ceaef&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+   
+  NoSuchElementError: An error occurred while running .setValue() command on &lt;.public-DraftStyleDefault-block&gt;: 
+   {&#34;sessionId&#34;:&#34;7cab286193e5a8209b8bf9b0009ceaef&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+   
+  NoSuchElementError: An error occurred while running .click() command on &lt;//*[@id=&#34;react-root&#34;]/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div[2]/div[4]/div/div/div[2]/div[3]/div/span/span&gt;: 
+   {&#34;sessionId&#34;:&#34;7cab286193e5a8209b8bf9b0009ceaef&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+   
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
